@@ -4,12 +4,12 @@ This tutorial will help you setup a Yubikey to be used for SSH authentication, g
 
 ## Installation
 1. Install the following packages:
-..* gnupg2
-..* pcsc-tools
-..* ccid
-..* libusb-compat
-..* vim
-..* yubitouch.sh (https://gist.github.com/a-dma/797e4fa2ac4b5c9024cc)
+  * gnupg2
+  * pcsc-tools
+  * ccid
+  * libusb-compat
+  * vim
+  * yubitouch.sh (https://gist.github.com/a-dma/797e4fa2ac4b5c9024cc)
 
 ## Configure system
 2. Add `export SSH_AUTH_SOCK=/run/user/$UID/gnupg/S.gpg-agent.ssh` to your `.bashrc` or `.zshrc`.
