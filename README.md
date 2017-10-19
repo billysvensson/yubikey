@@ -44,7 +44,7 @@ default-preference-list SHA512 AES256 ZLIB BZIP2 ZIP Uncompressed
 
 ## Export keys to flashdrive
 14. Insert and mount your flashdrive where you want to keep the private key backups.
-15. Export public key with 'gpg2 --armor --export your@email.here > yourname.public.gpg-key'.
+15. Export public key with `gpg2 --armor --export your@email.here > yourname.public.gpg-key`.
 16. Export private key with `gpg2 --armor --export-secret-keys your@email.here > yourname.private.gpg-key`.
 17. Export private subkeys with `gpg2 --armor --export-secret-subkeys your@email.here > yourname.subkeys.private.gpg-key`.
 18. Export public ssh key with `gpg2 --export-ssh-key your@email.here > yourname.public.ssh-key`.
